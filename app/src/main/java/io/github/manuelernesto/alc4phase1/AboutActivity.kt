@@ -22,12 +22,11 @@ class AboutActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         mywebview = findViewById<WebView>(R.id.mywebview)
-        mywebview!!.webViewClient = SSLTolerentWebViewClient()
-        mywebview!!.loadUrl("https://andela.com/alc/")
+        mywebview!!.webViewClient = MyWebViewClient()
+        mywebview!!.loadUrl(getString(R.string.alc_url))
     }
 
-
-    private class SSLTolerentWebViewClient : WebViewClient() {
+    private class MyWebViewClient : WebViewClient() {
         override fun onReceivedSslError(view: WebView?, handler: SslErrorHandler?, error: SslError?) {
             handler?.proceed()
         }

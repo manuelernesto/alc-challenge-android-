@@ -6,4 +6,10 @@
     <string name="txt_about">About ALC</string>
     <string name="txt_profile">My Profile</string>
     <string name="profile_name">Manuel Ernesto</string>
+    <string name="alc_url">https://andela.com/alc/</string>
+    <string name="txt_track">Track: Android</string>
+    <string name="txt_country">Country: Angola</string>
+    <string name="txt_email">Email: alemdadox@gmail.com</string>
+    <string name="txt_phone">Phone Number: +244925213140</string>
+    <string name="txt_username">Slack Username: @manuelernesto</string>
 </resources>
