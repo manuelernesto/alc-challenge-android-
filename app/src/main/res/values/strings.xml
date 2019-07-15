@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="title_activity_about">About ALC</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="welcome_txt">Welcome to ALC 4.0</string>
+    <string name="txt_about">About ALC</string>
+    <string name="txt_profile">My Profile</string>
+    <string name="profile_name">Manuel Ernesto</string>
+</resources>
